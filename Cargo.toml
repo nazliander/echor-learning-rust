@@ -1,0 +1,29 @@
+[package]
+name = "echor"
+version = "0.1.0"
+edition = "2024"
+description = "A Rust implementation of echo command"
+license = "MIT"
+repository = "https://github.com/nazli/echor"
+keywords = ["cli", "echo", "command-line"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = "4.5.2"
+
+[dev-dependencies]
+anyhow = "1.0.79"
+assert_cmd = "2.0.13"
+predicates = "3.0.4"
+pretty_assertions = "1.4.0"
+
+# Clippy configuration
+[lints.clippy]
+# Enable all clippy lints as warnings
+all = "warn"
+# Enable pedantic lints (very strict)
+pedantic = "warn"
+# Enable nursery lints (experimental)
+nursery = "warn"
+# Enable cargo lints
+cargo = "warn"
