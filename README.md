@@ -1,2 +1,3 @@
-# echor-learning-rust
-Toy project for learning rust command line tools
+# Echo Application in Rust
+
+Some learning experiments with Rust and clap. :)
